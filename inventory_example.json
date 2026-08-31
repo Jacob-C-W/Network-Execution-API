@@ -1,0 +1,28 @@
+{
+"devices": [
+ {
+    "host": "192.168.1.1",
+        "hostname": "example01",
+        "device_type": "cisco-ios",
+        "credential_profile": "salt",
+        "site": "ATL-DC1",
+        "tags": [
+            "test1",
+            "test2"
+        ]
+},
+{
+    "host": "192.168.2.1",
+        "hostname": "example02",
+        "device_type": "cisco-ios",
+        "credential_profile": "salt",
+        "site": "NYC-DC1",
+        "tags": [
+            "test1",
+            "test2",
+            "testA",
+            "testB"
+        ]
+}
+]
+}
