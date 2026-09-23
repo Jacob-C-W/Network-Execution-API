@@ -1,0 +1,7 @@
+vault.netops01.tld, X.X.X.X {
+
+    tls internal
+
+    reverse_proxy vault:8200
+
+}
